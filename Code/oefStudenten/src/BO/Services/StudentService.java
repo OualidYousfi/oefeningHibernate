@@ -6,10 +6,32 @@
 
 package BO.Services;
 
+import BO.TblCursisten;
+import DAL.HibernateUtil;
+import java.util.ArrayList;
+import java.util.List;
+import org.hibernate.Query;
+import org.hibernate.Session;
+
 /**
  *
  * @author 11627
  */
 public class StudentService {
+    private Session session;
     
+    public StudentService() {
+        this.session = HibernateUtil.getSessionFactory().openSession();
+        session.beginTransaction();
+    }
+    
+    public List<TblCursisten> getAllCursisten()
+    {
+        String database = "TblCursisten";
+        
+        Query q = session.createQuery("from " + database);
+        ArrayList<TblCursisten> list = (ArrayList<TblCursisten>) q.list();
+        
+        return list;
+    }
 }
