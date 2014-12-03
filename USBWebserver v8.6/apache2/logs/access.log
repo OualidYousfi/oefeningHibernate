@@ -215,3 +215,14 @@
 127.0.0.1 - - [03/Dec/2014:16:21:12 +0100] "GET /phpmyadmin/index.php?ajax_request=1&recent_table=1&token=13b7744d08d50d0fc6e164b40991409b HTTP/1.1" 200 675
 127.0.0.1 - - [03/Dec/2014:16:21:30 +0100] "POST /phpmyadmin/tbl_relation.php HTTP/1.1" 200 17559
 127.0.0.1 - - [03/Dec/2014:16:21:31 +0100] "GET /phpmyadmin/index.php?ajax_request=1&recent_table=1&token=13b7744d08d50d0fc6e164b40991409b HTTP/1.1" 200 675
+127.0.0.1 - - [03/Dec/2014:16:33:08 +0100] "GET /phpmyadmin/ HTTP/1.1" 200 7992
+127.0.0.1 - - [03/Dec/2014:16:33:08 +0100] "GET /phpmyadmin/phpmyadmin.css.php?server=1&token=1fdc8dcd39e393b0a4faed68c65d09d6&nocache=4125206712ltr HTTP/1.1" 200 88608
+127.0.0.1 - - [03/Dec/2014:16:33:08 +0100] "GET /phpmyadmin/js/messages.php?lang=nl&db=&server=0&token=65d35cf00c1e4164eca8c7c01e5b257b HTTP/1.1" 200 18194
+127.0.0.1 - - [03/Dec/2014:16:33:11 +0100] "POST /phpmyadmin/index.php HTTP/1.1" 302 -
+127.0.0.1 - - [03/Dec/2014:16:33:11 +0100] "GET /phpmyadmin/index.php?token=1fdc8dcd39e393b0a4faed68c65d09d6 HTTP/1.1" 200 47761
+127.0.0.1 - - [03/Dec/2014:16:33:11 +0100] "GET /phpmyadmin/js/messages.php?lang=nl&db=&server=0&token=1fdc8dcd39e393b0a4faed68c65d09d6 HTTP/1.1" 200 18194
+127.0.0.1 - - [03/Dec/2014:16:33:11 +0100] "GET /phpmyadmin/phpmyadmin.css.php?server=1&token=1fdc8dcd39e393b0a4faed68c65d09d6&nocache=5542827503ltr HTTP/1.1" 200 88608
+127.0.0.1 - - [03/Dec/2014:16:33:12 +0100] "GET /phpmyadmin/version_check.php?&_nocache=1417620792208228361 HTTP/1.1" 200 42
+127.0.0.1 - - [03/Dec/2014:16:33:15 +0100] "GET /phpmyadmin/navigation.php?ajax_request=1&token=1fdc8dcd39e393b0a4faed68c65d09d6&aPath=cm9vdA%3D%3D.c3R1ZGVudGFkbWluZGI%3D&vPath=cm9vdA%3D%3D.c3R1ZGVudGFkbWluZGI%3D&pos=0&pos2_name=&pos2_value=&searchClause=&searchClause2=&_nocache=1417620795501844214 HTTP/1.1" 200 3932
+127.0.0.1 - - [03/Dec/2014:16:33:18 +0100] "GET /phpmyadmin/db_structure.php?server=1&db=bezienswaardighedendb&token=1fdc8dcd39e393b0a4faed68c65d09d6&ajax_request=true&ajax_page_request=true&menuHashes=6e97982e&_nocache=1417620798817272138 HTTP/1.1" 200 13227
+127.0.0.1 - - [03/Dec/2014:16:33:21 +0100] "GET /phpmyadmin/db_sql.php?db=bezienswaardighedendb&token=1fdc8dcd39e393b0a4faed68c65d09d6&db_query_force=1&ajax_request=true&ajax_page_request=true&menuHashes=6e97982e-99a38322&_nocache=1417620801362435928 HTTP/1.1" 200 7410
