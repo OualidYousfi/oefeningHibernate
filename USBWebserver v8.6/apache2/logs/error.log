@@ -1,5 +1,5 @@
-[Wed Dec 03 14:25:08.219623 2014] [mpm_winnt:notice] [pid 5676:tid 384] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
-[Wed Dec 03 14:25:08.219623 2014] [mpm_winnt:notice] [pid 5676:tid 384] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
-[Wed Dec 03 14:25:08.219623 2014] [core:notice] [pid 5676:tid 384] AH00094: Command line: 'C:\\Users\\11627\\Desktop\\StudentRegistratieSysteem\\oefeningHibernate\\USBWebserver v8.6/apache2/bin/httpd_usbwv8.exe -d C:/Users/11627/Desktop/StudentRegistratieSysteem/oefeningHibernate/USBWebserver v8.6/apache2'
-[Wed Dec 03 14:25:08.220623 2014] [mpm_winnt:notice] [pid 5676:tid 384] AH00418: Parent: Created child process 4084
-[Wed Dec 03 14:25:08.534654 2014] [mpm_winnt:notice] [pid 4084:tid 400] AH00354: Child: Starting 64 worker threads.
+[Wed Dec 03 15:38:04.789255 2014] [mpm_winnt:notice] [pid 5252:tid 384] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
+[Wed Dec 03 15:38:04.789255 2014] [mpm_winnt:notice] [pid 5252:tid 384] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
+[Wed Dec 03 15:38:04.789255 2014] [core:notice] [pid 5252:tid 384] AH00094: Command line: 'C:\\Users\\11627\\Desktop\\StudentRegistratieSysteem\\oefeningHibernate\\USBWebserver v8.6/apache2/bin/httpd_usbwv8.exe -d C:/Users/11627/Desktop/StudentRegistratieSysteem/oefeningHibernate/USBWebserver v8.6/apache2'
+[Wed Dec 03 15:38:04.791255 2014] [mpm_winnt:notice] [pid 5252:tid 384] AH00418: Parent: Created child process 5768
+[Wed Dec 03 15:38:05.145290 2014] [mpm_winnt:notice] [pid 5768:tid 400] AH00354: Child: Starting 64 worker threads.
