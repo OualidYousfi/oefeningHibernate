@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 3-dec-2014 14:49:23 by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="oefstudenten.TblDocenten" table="tbl_docenten" catalog="studentadmindb">
+        <id name="id" type="java.lang.Integer">
+            <column name="ID" />
+            <generator class="identity" />
+        </id>
+        <property name="voornaam" type="string">
+            <column name="Voornaam" length="250" not-null="true" />
+        </property>
+        <property name="naam" type="string">
+            <column name="Naam" length="250" not-null="true" />
+        </property>
+        <property name="moduleId" type="int">
+            <column name="`Module ID`" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>
